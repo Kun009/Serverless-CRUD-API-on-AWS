@@ -6,8 +6,8 @@ This project implements a serverless CRUD API using AWS API Gateway, Lambda, Dyn
 + [Architecture](https://github.com/Kun009/Serverless-CRUD-API-on-AWS/edit/main/README.md#architecture)
 + [Prerequisites](https://github.com/Kun009/Serverless-CRUD-API-on-AWS/edit/main/README.md#prerequisites)
 + [Setup Steps](https://github.com/Kun009/Serverless-CRUD-API-on-AWS/tree/main#setup-steps)
-+ Lambda Code Overview
-+ Testing
++ [Lambda Code Overview](https://github.com/Kun009/Serverless-CRUD-API-on-AWS/blob/main/README.md#lambda-code-overview)
++ [Testing](https://github.com/Kun009/Serverless-CRUD-API-on-AWS/edit/main/README.md#testing)
 
 ## Architecture
 + API Gateway: Routes HTTP requests to Lambda.
@@ -78,18 +78,22 @@ The Lambda function handles CRUD operations based on the HTTP method. It uses AW
 
 2. Check Postman Responses
 
-+Validate response status codes and messages.
-+Review the changes in the CRUD table.
++ Validate response status codes and messages.
+  
++ Review the changes in the CRUD table.
+  
 Below is the image of the details posted
 ![Screenshot 2025-02-24 123245](https://github.com/user-attachments/assets/192debdf-0de8-42fe-97b2-f81fa836b9fd)
+
 Below is the image of the details updated where the completed for email check became false
 ![Screenshot 2025-02-24 123320](https://github.com/user-attachments/assets/31211dac-b20a-4e5d-8905-c3e130854508)
+
 Below is the image for delete operation where task was deleted 
 ![Screenshot 2025-02-24 123917](https://github.com/user-attachments/assets/d226ad53-ec10-4ef6-a899-b06a72ace357)
 
 
 3. Verify CloudWatch Logs
 
-+Confirm that logs capture the requests and responses.
++ Confirm that logs capture the requests and responses.
 
 ![Screenshot 2025-02-19 231442](https://github.com/user-attachments/assets/c27021ae-9c82-4c32-8185-786b99298784)
